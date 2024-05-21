@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice Simple</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h2>Calculatrice</h2>
+        </header>
+        <div class="calculatrice-container">
+            <div class="ecran-container">
+                <div class="operation-container" id="operation">
+                    
+                </div>
+                <div class="resultat-container" id="result">
+                    
+                </div>
+            </div>
+            <div class="bouton-container">
+                <button class="bouton" id="clear">AC</button>
+                <button class="bouton " id="racine">√</button>
+                <button class="bouton " id="pourcentage">%</button>
+                <button class="bouton " id="division">÷</button>
+
+                <button class="bouton " id="7">7</button>
+                <button class="bouton " id="8">8</button>
+                <button class="bouton " id="9">9</button>
+                <button class="bouton " id="multiplication">x</button>
+
+                <button class="bouton " id="4">4</button>
+                <button class="bouton " id="5">5</button>
+                <button class="bouton " id="6">6</button>
+                <button class="bouton ">-</button>
+
+                <button class="bouton " id="1">1</button>
+                <button class="bouton " id="2">2</button>
+                <button class="bouton " id="3">3</button>
+                <button class="bouton " id="addition">+</button>
+
+                <button class="bouton " id="0">0</button>
+                <button class="bouton" id="virgule">.</button>
+                <button class="bouton" id="egale">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script> <!--inclure math.js pour utiliser math.evaluate au lieux de eval --> 
+    <script src="script.js"></script>
+</body>
+</html>
